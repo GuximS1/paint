@@ -76,7 +76,7 @@ namespace Paint
             this.clr2 = new System.Windows.Forms.PictureBox();
             this.clr1 = new System.Windows.Forms.PictureBox();
             this.clr0 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pbColor = new System.Windows.Forms.PictureBox();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.newToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.openToolStripButton = new System.Windows.Forms.ToolStripButton();
@@ -84,7 +84,7 @@ namespace Paint
             this.printToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnEditColor = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbPencil)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPaint)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbLine)).BeginInit();
@@ -130,7 +130,7 @@ namespace Paint
             ((System.ComponentModel.ISupportInitialize)(this.clr2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.clr1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.clr0)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbColor)).BeginInit();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -155,6 +155,7 @@ namespace Paint
             this.pbPencil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbPencil.TabIndex = 1;
             this.pbPencil.TabStop = false;
+            this.pbPencil.Click += new System.EventHandler(this.pbPencil_Click);
             // 
             // pbPaint
             // 
@@ -168,6 +169,7 @@ namespace Paint
             this.pbPaint.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbPaint.TabIndex = 2;
             this.pbPaint.TabStop = false;
+            this.pbPaint.Click += new System.EventHandler(this.pbPaint_Click);
             // 
             // pbLine
             // 
@@ -181,6 +183,7 @@ namespace Paint
             this.pbLine.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbLine.TabIndex = 3;
             this.pbLine.TabStop = false;
+            this.pbLine.Click += new System.EventHandler(this.pbLine_Click);
             // 
             // pbEllipse
             // 
@@ -194,6 +197,7 @@ namespace Paint
             this.pbEllipse.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbEllipse.TabIndex = 4;
             this.pbEllipse.TabStop = false;
+            this.pbEllipse.Click += new System.EventHandler(this.pbEllipse_Click);
             // 
             // pbRectangle
             // 
@@ -207,6 +211,7 @@ namespace Paint
             this.pbRectangle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbRectangle.TabIndex = 5;
             this.pbRectangle.TabStop = false;
+            this.pbRectangle.Click += new System.EventHandler(this.pbRectangle_Click);
             // 
             // pbErase
             // 
@@ -220,6 +225,7 @@ namespace Paint
             this.pbErase.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbErase.TabIndex = 6;
             this.pbErase.TabStop = false;
+            this.pbErase.Click += new System.EventHandler(this.pbErase_Click);
             // 
             // panel2
             // 
@@ -303,6 +309,7 @@ namespace Paint
             this.clr35.Size = new System.Drawing.Size(32, 33);
             this.clr35.TabIndex = 35;
             this.clr35.TabStop = false;
+            this.clr35.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr34
             // 
@@ -314,6 +321,7 @@ namespace Paint
             this.clr34.Size = new System.Drawing.Size(32, 33);
             this.clr34.TabIndex = 34;
             this.clr34.TabStop = false;
+            this.clr34.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr33
             // 
@@ -325,6 +333,7 @@ namespace Paint
             this.clr33.Size = new System.Drawing.Size(32, 33);
             this.clr33.TabIndex = 33;
             this.clr33.TabStop = false;
+            this.clr33.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr32
             // 
@@ -336,6 +345,7 @@ namespace Paint
             this.clr32.Size = new System.Drawing.Size(32, 33);
             this.clr32.TabIndex = 32;
             this.clr32.TabStop = false;
+            this.clr32.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr25
             // 
@@ -347,6 +357,7 @@ namespace Paint
             this.clr25.Size = new System.Drawing.Size(32, 33);
             this.clr25.TabIndex = 31;
             this.clr25.TabStop = false;
+            this.clr25.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr31
             // 
@@ -358,6 +369,7 @@ namespace Paint
             this.clr31.Size = new System.Drawing.Size(32, 33);
             this.clr31.TabIndex = 30;
             this.clr31.TabStop = false;
+            this.clr31.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr30
             // 
@@ -369,6 +381,7 @@ namespace Paint
             this.clr30.Size = new System.Drawing.Size(32, 33);
             this.clr30.TabIndex = 29;
             this.clr30.TabStop = false;
+            this.clr30.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr29
             // 
@@ -380,6 +393,7 @@ namespace Paint
             this.clr29.Size = new System.Drawing.Size(32, 33);
             this.clr29.TabIndex = 28;
             this.clr29.TabStop = false;
+            this.clr29.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr28
             // 
@@ -391,6 +405,7 @@ namespace Paint
             this.clr28.Size = new System.Drawing.Size(32, 33);
             this.clr28.TabIndex = 27;
             this.clr28.TabStop = false;
+            this.clr28.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr27
             // 
@@ -402,6 +417,7 @@ namespace Paint
             this.clr27.Size = new System.Drawing.Size(32, 33);
             this.clr27.TabIndex = 26;
             this.clr27.TabStop = false;
+            this.clr27.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr26
             // 
@@ -413,6 +429,7 @@ namespace Paint
             this.clr26.Size = new System.Drawing.Size(32, 33);
             this.clr26.TabIndex = 25;
             this.clr26.TabStop = false;
+            this.clr26.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr24
             // 
@@ -424,6 +441,7 @@ namespace Paint
             this.clr24.Size = new System.Drawing.Size(32, 33);
             this.clr24.TabIndex = 24;
             this.clr24.TabStop = false;
+            this.clr24.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr23
             // 
@@ -435,6 +453,7 @@ namespace Paint
             this.clr23.Size = new System.Drawing.Size(32, 33);
             this.clr23.TabIndex = 23;
             this.clr23.TabStop = false;
+            this.clr23.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr22
             // 
@@ -446,6 +465,7 @@ namespace Paint
             this.clr22.Size = new System.Drawing.Size(32, 33);
             this.clr22.TabIndex = 22;
             this.clr22.TabStop = false;
+            this.clr22.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr21
             // 
@@ -457,6 +477,7 @@ namespace Paint
             this.clr21.Size = new System.Drawing.Size(32, 33);
             this.clr21.TabIndex = 21;
             this.clr21.TabStop = false;
+            this.clr21.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr20
             // 
@@ -468,6 +489,7 @@ namespace Paint
             this.clr20.Size = new System.Drawing.Size(32, 33);
             this.clr20.TabIndex = 20;
             this.clr20.TabStop = false;
+            this.clr20.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr19
             // 
@@ -479,6 +501,7 @@ namespace Paint
             this.clr19.Size = new System.Drawing.Size(32, 33);
             this.clr19.TabIndex = 19;
             this.clr19.TabStop = false;
+            this.clr19.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr18
             // 
@@ -490,6 +513,7 @@ namespace Paint
             this.clr18.Size = new System.Drawing.Size(32, 33);
             this.clr18.TabIndex = 18;
             this.clr18.TabStop = false;
+            this.clr18.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr17
             // 
@@ -501,6 +525,7 @@ namespace Paint
             this.clr17.Size = new System.Drawing.Size(32, 33);
             this.clr17.TabIndex = 17;
             this.clr17.TabStop = false;
+            this.clr17.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr16
             // 
@@ -512,6 +537,7 @@ namespace Paint
             this.clr16.Size = new System.Drawing.Size(32, 33);
             this.clr16.TabIndex = 16;
             this.clr16.TabStop = false;
+            this.clr16.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr15
             // 
@@ -523,6 +549,7 @@ namespace Paint
             this.clr15.Size = new System.Drawing.Size(32, 33);
             this.clr15.TabIndex = 15;
             this.clr15.TabStop = false;
+            this.clr15.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr14
             // 
@@ -534,6 +561,7 @@ namespace Paint
             this.clr14.Size = new System.Drawing.Size(32, 33);
             this.clr14.TabIndex = 14;
             this.clr14.TabStop = false;
+            this.clr14.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr13
             // 
@@ -545,6 +573,7 @@ namespace Paint
             this.clr13.Size = new System.Drawing.Size(32, 33);
             this.clr13.TabIndex = 13;
             this.clr13.TabStop = false;
+            this.clr13.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr12
             // 
@@ -556,6 +585,7 @@ namespace Paint
             this.clr12.Size = new System.Drawing.Size(32, 33);
             this.clr12.TabIndex = 12;
             this.clr12.TabStop = false;
+            this.clr12.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr11
             // 
@@ -567,6 +597,7 @@ namespace Paint
             this.clr11.Size = new System.Drawing.Size(32, 33);
             this.clr11.TabIndex = 11;
             this.clr11.TabStop = false;
+            this.clr11.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr10
             // 
@@ -578,6 +609,7 @@ namespace Paint
             this.clr10.Size = new System.Drawing.Size(32, 33);
             this.clr10.TabIndex = 10;
             this.clr10.TabStop = false;
+            this.clr10.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr9
             // 
@@ -589,6 +621,7 @@ namespace Paint
             this.clr9.Size = new System.Drawing.Size(32, 33);
             this.clr9.TabIndex = 9;
             this.clr9.TabStop = false;
+            this.clr9.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr8
             // 
@@ -600,6 +633,7 @@ namespace Paint
             this.clr8.Size = new System.Drawing.Size(32, 33);
             this.clr8.TabIndex = 8;
             this.clr8.TabStop = false;
+            this.clr8.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr7
             // 
@@ -611,6 +645,7 @@ namespace Paint
             this.clr7.Size = new System.Drawing.Size(32, 33);
             this.clr7.TabIndex = 7;
             this.clr7.TabStop = false;
+            this.clr7.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr6
             // 
@@ -622,6 +657,7 @@ namespace Paint
             this.clr6.Size = new System.Drawing.Size(32, 33);
             this.clr6.TabIndex = 6;
             this.clr6.TabStop = false;
+            this.clr6.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr5
             // 
@@ -633,6 +669,7 @@ namespace Paint
             this.clr5.Size = new System.Drawing.Size(32, 33);
             this.clr5.TabIndex = 5;
             this.clr5.TabStop = false;
+            this.clr5.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr4
             // 
@@ -644,6 +681,7 @@ namespace Paint
             this.clr4.Size = new System.Drawing.Size(32, 33);
             this.clr4.TabIndex = 4;
             this.clr4.TabStop = false;
+            this.clr4.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr3
             // 
@@ -655,6 +693,7 @@ namespace Paint
             this.clr3.Size = new System.Drawing.Size(32, 33);
             this.clr3.TabIndex = 3;
             this.clr3.TabStop = false;
+            this.clr3.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr2
             // 
@@ -666,6 +705,7 @@ namespace Paint
             this.clr2.Size = new System.Drawing.Size(32, 33);
             this.clr2.TabIndex = 2;
             this.clr2.TabStop = false;
+            this.clr2.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr1
             // 
@@ -677,6 +717,7 @@ namespace Paint
             this.clr1.Size = new System.Drawing.Size(32, 33);
             this.clr1.TabIndex = 1;
             this.clr1.TabStop = false;
+            this.clr1.Click += new System.EventHandler(this.clr_Click);
             // 
             // clr0
             // 
@@ -688,17 +729,18 @@ namespace Paint
             this.clr0.Size = new System.Drawing.Size(32, 33);
             this.clr0.TabIndex = 0;
             this.clr0.TabStop = false;
+            this.clr0.Click += new System.EventHandler(this.clr_Click);
             // 
-            // pictureBox8
+            // pbColor
             // 
-            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox8.Location = new System.Drawing.Point(956, 42);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(188, 146);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 9;
-            this.pictureBox8.TabStop = false;
+            this.pbColor.BackColor = System.Drawing.Color.Transparent;
+            this.pbColor.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pbColor.Location = new System.Drawing.Point(956, 42);
+            this.pbColor.Name = "pbColor";
+            this.pbColor.Size = new System.Drawing.Size(188, 146);
+            this.pbColor.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbColor.TabIndex = 9;
+            this.pbColor.TabStop = false;
             // 
             // toolStrip1
             // 
@@ -763,16 +805,17 @@ namespace Paint
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(6, 27);
             // 
-            // button1
+            // btnEditColor
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Location = new System.Drawing.Point(978, 568);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(146, 29);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Edit Color";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnEditColor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnEditColor.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEditColor.Location = new System.Drawing.Point(978, 568);
+            this.btnEditColor.Name = "btnEditColor";
+            this.btnEditColor.Size = new System.Drawing.Size(146, 29);
+            this.btnEditColor.TabIndex = 11;
+            this.btnEditColor.Text = "Edit Color";
+            this.btnEditColor.UseVisualStyleBackColor = false;
+            this.btnEditColor.Click += new System.EventHandler(this.btnEditColor_Click);
             // 
             // Form1
             // 
@@ -780,9 +823,9 @@ namespace Paint
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(1149, 608);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnEditColor);
             this.Controls.Add(this.toolStrip1);
-            this.Controls.Add(this.pictureBox8);
+            this.Controls.Add(this.pbColor);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.drawPanel);
@@ -834,7 +877,7 @@ namespace Paint
             ((System.ComponentModel.ISupportInitialize)(this.clr2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.clr1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.clr0)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbColor)).EndInit();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -890,7 +933,7 @@ namespace Paint
         private System.Windows.Forms.PictureBox clr2;
         private System.Windows.Forms.PictureBox clr1;
         private System.Windows.Forms.PictureBox clr0;
-        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pbColor;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton newToolStripButton;
         private System.Windows.Forms.ToolStripButton openToolStripButton;
@@ -898,7 +941,7 @@ namespace Paint
         private System.Windows.Forms.ToolStripButton printToolStripButton;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnEditColor;
     }
 }
 

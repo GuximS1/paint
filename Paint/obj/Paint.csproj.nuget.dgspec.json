@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Guxim\\source\\repos\\Paint\\Paint\\Paint.csproj": {}
+    "C:\\Users\\flamu\\source\\repos\\paint\\Paint\\Paint.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Guxim\\source\\repos\\Paint\\Paint\\Paint.csproj": {
+    "C:\\Users\\flamu\\source\\repos\\paint\\Paint\\Paint.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Guxim\\source\\repos\\Paint\\Paint\\Paint.csproj",
+        "projectUniqueName": "C:\\Users\\flamu\\source\\repos\\paint\\Paint\\Paint.csproj",
         "projectName": "Paint",
-        "projectPath": "C:\\Users\\Guxim\\source\\repos\\Paint\\Paint\\Paint.csproj",
-        "packagesPath": "C:\\Users\\Guxim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Guxim\\source\\repos\\Paint\\Paint\\obj\\",
+        "projectPath": "C:\\Users\\flamu\\source\\repos\\paint\\Paint\\Paint.csproj",
+        "packagesPath": "C:\\Users\\flamu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\flamu\\source\\repos\\paint\\Paint\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Guxim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\flamu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
