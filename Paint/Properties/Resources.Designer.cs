@@ -63,6 +63,16 @@ namespace Paint.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1024px_BYR_color_wheel_svg {
+            get {
+                object obj = ResourceManager.GetObject("1024px-BYR_color_wheel.svg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Brush {
             get {
                 object obj = ResourceManager.GetObject("Brush", resourceCulture);
