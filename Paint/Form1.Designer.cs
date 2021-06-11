@@ -29,13 +29,14 @@ namespace Paint
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.drawPanel = new System.Windows.Forms.Panel();
+            this.pbPencil = new System.Windows.Forms.PictureBox();
+            this.pbPaint = new System.Windows.Forms.PictureBox();
+            this.pbLine = new System.Windows.Forms.PictureBox();
+            this.pbEllipse = new System.Windows.Forms.PictureBox();
+            this.pbRectangle = new System.Windows.Forms.PictureBox();
+            this.pbErase = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -76,12 +77,20 @@ namespace Paint
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.newToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.openToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.saveToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.printToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.button1 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pbPencil)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbPaint)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLine)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEllipse)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbRectangle)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbErase)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel3.SuspendLayout();
@@ -122,99 +131,107 @@ namespace Paint
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // drawPanel
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Location = new System.Drawing.Point(101, 42);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(848, 553);
-            this.panel1.TabIndex = 0;
+            this.drawPanel.BackColor = System.Drawing.Color.White;
+            this.drawPanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.drawPanel.Location = new System.Drawing.Point(101, 42);
+            this.drawPanel.Name = "drawPanel";
+            this.drawPanel.Size = new System.Drawing.Size(848, 553);
+            this.drawPanel.TabIndex = 0;
             // 
-            // pictureBox1
+            // pbPencil
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::Paint.Properties.Resources.pencil;
-            this.pictureBox1.Location = new System.Drawing.Point(7, 82);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(66, 62);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.pbPencil.BackColor = System.Drawing.Color.Transparent;
+            this.pbPencil.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pbPencil.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbPencil.Image = global::Paint.Properties.Resources.pencil;
+            this.pbPencil.Location = new System.Drawing.Point(7, 82);
+            this.pbPencil.Name = "pbPencil";
+            this.pbPencil.Size = new System.Drawing.Size(66, 62);
+            this.pbPencil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbPencil.TabIndex = 1;
+            this.pbPencil.TabStop = false;
             // 
-            // pictureBox2
+            // pbPaint
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = global::Paint.Properties.Resources.Bucket;
-            this.pictureBox2.Location = new System.Drawing.Point(10, 471);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(66, 62);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
+            this.pbPaint.BackColor = System.Drawing.Color.Transparent;
+            this.pbPaint.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pbPaint.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbPaint.Image = global::Paint.Properties.Resources.Bucket;
+            this.pbPaint.Location = new System.Drawing.Point(10, 471);
+            this.pbPaint.Name = "pbPaint";
+            this.pbPaint.Size = new System.Drawing.Size(66, 62);
+            this.pbPaint.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbPaint.TabIndex = 2;
+            this.pbPaint.TabStop = false;
             // 
-            // pictureBox3
+            // pbLine
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox3.Image = global::Paint.Properties.Resources.Brush;
-            this.pictureBox3.Location = new System.Drawing.Point(7, 396);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(66, 62);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 3;
-            this.pictureBox3.TabStop = false;
+            this.pbLine.BackColor = System.Drawing.Color.Transparent;
+            this.pbLine.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pbLine.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbLine.Image = global::Paint.Properties.Resources.Location_arithmetic_diagonal_svg;
+            this.pbLine.Location = new System.Drawing.Point(7, 396);
+            this.pbLine.Name = "pbLine";
+            this.pbLine.Size = new System.Drawing.Size(66, 62);
+            this.pbLine.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbLine.TabIndex = 3;
+            this.pbLine.TabStop = false;
             // 
-            // pictureBox4
+            // pbEllipse
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox4.Image = global::Paint.Properties.Resources.Circle;
-            this.pictureBox4.Location = new System.Drawing.Point(7, 317);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(66, 62);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 4;
-            this.pictureBox4.TabStop = false;
+            this.pbEllipse.BackColor = System.Drawing.Color.Transparent;
+            this.pbEllipse.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pbEllipse.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbEllipse.Image = global::Paint.Properties.Resources.Circle;
+            this.pbEllipse.Location = new System.Drawing.Point(7, 317);
+            this.pbEllipse.Name = "pbEllipse";
+            this.pbEllipse.Size = new System.Drawing.Size(66, 62);
+            this.pbEllipse.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbEllipse.TabIndex = 4;
+            this.pbEllipse.TabStop = false;
             // 
-            // pictureBox5
+            // pbRectangle
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox5.Image = global::Paint.Properties.Resources.Rectangle;
-            this.pictureBox5.Location = new System.Drawing.Point(7, 239);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(66, 62);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 5;
-            this.pictureBox5.TabStop = false;
+            this.pbRectangle.BackColor = System.Drawing.Color.Transparent;
+            this.pbRectangle.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pbRectangle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbRectangle.Image = global::Paint.Properties.Resources.Rectangle;
+            this.pbRectangle.Location = new System.Drawing.Point(7, 239);
+            this.pbRectangle.Name = "pbRectangle";
+            this.pbRectangle.Size = new System.Drawing.Size(66, 62);
+            this.pbRectangle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbRectangle.TabIndex = 5;
+            this.pbRectangle.TabStop = false;
             // 
-            // pictureBox6
+            // pbErase
             // 
-            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox6.Image = global::Paint.Properties.Resources.Eraser;
-            this.pictureBox6.Location = new System.Drawing.Point(7, 160);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(66, 62);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 6;
-            this.pictureBox6.TabStop = false;
+            this.pbErase.BackColor = System.Drawing.Color.Transparent;
+            this.pbErase.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pbErase.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbErase.Image = global::Paint.Properties.Resources.Eraser;
+            this.pbErase.Location = new System.Drawing.Point(7, 160);
+            this.pbErase.Name = "pbErase";
+            this.pbErase.Size = new System.Drawing.Size(66, 62);
+            this.pbErase.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbErase.TabIndex = 6;
+            this.pbErase.TabStop = false;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.pictureBox7);
-            this.panel2.Controls.Add(this.pictureBox6);
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Controls.Add(this.pictureBox3);
-            this.panel2.Controls.Add(this.pictureBox5);
-            this.panel2.Controls.Add(this.pictureBox4);
+            this.panel2.Controls.Add(this.pbErase);
+            this.panel2.Controls.Add(this.pbPencil);
+            this.panel2.Controls.Add(this.pbPaint);
+            this.panel2.Controls.Add(this.pbLine);
+            this.panel2.Controls.Add(this.pbRectangle);
+            this.panel2.Controls.Add(this.pbEllipse);
             this.panel2.Location = new System.Drawing.Point(4, 42);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(91, 553);
@@ -223,6 +240,7 @@ namespace Paint
             // pictureBox7
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.White;
+            this.pictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox7.Location = new System.Drawing.Point(7, 14);
             this.pictureBox7.Name = "pictureBox7";
@@ -233,7 +251,7 @@ namespace Paint
             // 
             // panel3
             // 
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel3.Controls.Add(this.pictureBox41);
             this.panel3.Controls.Add(this.pictureBox42);
             this.panel3.Controls.Add(this.pictureBox43);
@@ -270,7 +288,7 @@ namespace Paint
             this.panel3.Controls.Add(this.pictureBox11);
             this.panel3.Controls.Add(this.pictureBox10);
             this.panel3.Controls.Add(this.pictureBox9);
-            this.panel3.Location = new System.Drawing.Point(956, 228);
+            this.panel3.Location = new System.Drawing.Point(955, 194);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(188, 367);
             this.panel3.TabIndex = 8;
@@ -278,6 +296,7 @@ namespace Paint
             // pictureBox41
             // 
             this.pictureBox41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.pictureBox41.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox41.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox41.Location = new System.Drawing.Point(135, 324);
             this.pictureBox41.Name = "pictureBox41";
@@ -288,6 +307,7 @@ namespace Paint
             // pictureBox42
             // 
             this.pictureBox42.BackColor = System.Drawing.Color.SaddleBrown;
+            this.pictureBox42.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox42.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox42.Location = new System.Drawing.Point(97, 324);
             this.pictureBox42.Name = "pictureBox42";
@@ -298,6 +318,7 @@ namespace Paint
             // pictureBox43
             // 
             this.pictureBox43.BackColor = System.Drawing.Color.Chocolate;
+            this.pictureBox43.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox43.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox43.Location = new System.Drawing.Point(59, 324);
             this.pictureBox43.Name = "pictureBox43";
@@ -308,6 +329,7 @@ namespace Paint
             // pictureBox44
             // 
             this.pictureBox44.BackColor = System.Drawing.Color.BurlyWood;
+            this.pictureBox44.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox44.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox44.Location = new System.Drawing.Point(21, 324);
             this.pictureBox44.Name = "pictureBox44";
@@ -318,6 +340,7 @@ namespace Paint
             // pictureBox40
             // 
             this.pictureBox40.BackColor = System.Drawing.Color.Coral;
+            this.pictureBox40.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox40.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox40.Location = new System.Drawing.Point(59, 246);
             this.pictureBox40.Name = "pictureBox40";
@@ -328,6 +351,7 @@ namespace Paint
             // pictureBox25
             // 
             this.pictureBox25.BackColor = System.Drawing.Color.Indigo;
+            this.pictureBox25.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox25.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox25.Location = new System.Drawing.Point(135, 285);
             this.pictureBox25.Name = "pictureBox25";
@@ -338,6 +362,7 @@ namespace Paint
             // pictureBox26
             // 
             this.pictureBox26.BackColor = System.Drawing.Color.MidnightBlue;
+            this.pictureBox26.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox26.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox26.Location = new System.Drawing.Point(97, 285);
             this.pictureBox26.Name = "pictureBox26";
@@ -348,6 +373,7 @@ namespace Paint
             // pictureBox27
             // 
             this.pictureBox27.BackColor = System.Drawing.Color.RoyalBlue;
+            this.pictureBox27.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox27.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox27.Location = new System.Drawing.Point(59, 285);
             this.pictureBox27.Name = "pictureBox27";
@@ -358,6 +384,7 @@ namespace Paint
             // pictureBox28
             // 
             this.pictureBox28.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.pictureBox28.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox28.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox28.Location = new System.Drawing.Point(21, 285);
             this.pictureBox28.Name = "pictureBox28";
@@ -368,6 +395,7 @@ namespace Paint
             // pictureBox29
             // 
             this.pictureBox29.BackColor = System.Drawing.Color.OrangeRed;
+            this.pictureBox29.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox29.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox29.Location = new System.Drawing.Point(135, 246);
             this.pictureBox29.Name = "pictureBox29";
@@ -378,6 +406,7 @@ namespace Paint
             // pictureBox30
             // 
             this.pictureBox30.BackColor = System.Drawing.Color.Tomato;
+            this.pictureBox30.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox30.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox30.Location = new System.Drawing.Point(97, 246);
             this.pictureBox30.Name = "pictureBox30";
@@ -388,6 +417,7 @@ namespace Paint
             // pictureBox31
             // 
             this.pictureBox31.BackColor = System.Drawing.Color.SandyBrown;
+            this.pictureBox31.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox31.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox31.Location = new System.Drawing.Point(21, 246);
             this.pictureBox31.Name = "pictureBox31";
@@ -398,6 +428,7 @@ namespace Paint
             // pictureBox32
             // 
             this.pictureBox32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.pictureBox32.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox32.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox32.Location = new System.Drawing.Point(135, 207);
             this.pictureBox32.Name = "pictureBox32";
@@ -408,6 +439,7 @@ namespace Paint
             // pictureBox33
             // 
             this.pictureBox33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.pictureBox33.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox33.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox33.Location = new System.Drawing.Point(97, 207);
             this.pictureBox33.Name = "pictureBox33";
@@ -418,6 +450,7 @@ namespace Paint
             // pictureBox34
             // 
             this.pictureBox34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.pictureBox34.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox34.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox34.Location = new System.Drawing.Point(59, 207);
             this.pictureBox34.Name = "pictureBox34";
@@ -428,6 +461,7 @@ namespace Paint
             // pictureBox35
             // 
             this.pictureBox35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.pictureBox35.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox35.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox35.Location = new System.Drawing.Point(21, 207);
             this.pictureBox35.Name = "pictureBox35";
@@ -438,6 +472,7 @@ namespace Paint
             // pictureBox36
             // 
             this.pictureBox36.BackColor = System.Drawing.Color.Navy;
+            this.pictureBox36.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox36.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox36.Location = new System.Drawing.Point(135, 168);
             this.pictureBox36.Name = "pictureBox36";
@@ -448,6 +483,7 @@ namespace Paint
             // pictureBox37
             // 
             this.pictureBox37.BackColor = System.Drawing.Color.Blue;
+            this.pictureBox37.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox37.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox37.Location = new System.Drawing.Point(97, 168);
             this.pictureBox37.Name = "pictureBox37";
@@ -458,6 +494,7 @@ namespace Paint
             // pictureBox38
             // 
             this.pictureBox38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.pictureBox38.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox38.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox38.Location = new System.Drawing.Point(59, 168);
             this.pictureBox38.Name = "pictureBox38";
@@ -468,6 +505,7 @@ namespace Paint
             // pictureBox39
             // 
             this.pictureBox39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.pictureBox39.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox39.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox39.Location = new System.Drawing.Point(21, 168);
             this.pictureBox39.Name = "pictureBox39";
@@ -478,6 +516,7 @@ namespace Paint
             // pictureBox17
             // 
             this.pictureBox17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.pictureBox17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox17.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox17.Location = new System.Drawing.Point(135, 129);
             this.pictureBox17.Name = "pictureBox17";
@@ -488,6 +527,7 @@ namespace Paint
             // pictureBox18
             // 
             this.pictureBox18.BackColor = System.Drawing.Color.Yellow;
+            this.pictureBox18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox18.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox18.Location = new System.Drawing.Point(97, 129);
             this.pictureBox18.Name = "pictureBox18";
@@ -498,6 +538,7 @@ namespace Paint
             // pictureBox19
             // 
             this.pictureBox19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.pictureBox19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox19.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox19.Location = new System.Drawing.Point(59, 129);
             this.pictureBox19.Name = "pictureBox19";
@@ -508,6 +549,7 @@ namespace Paint
             // pictureBox20
             // 
             this.pictureBox20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.pictureBox20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox20.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox20.Location = new System.Drawing.Point(21, 129);
             this.pictureBox20.Name = "pictureBox20";
@@ -518,6 +560,7 @@ namespace Paint
             // pictureBox21
             // 
             this.pictureBox21.BackColor = System.Drawing.Color.Green;
+            this.pictureBox21.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox21.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox21.Location = new System.Drawing.Point(135, 90);
             this.pictureBox21.Name = "pictureBox21";
@@ -528,6 +571,7 @@ namespace Paint
             // pictureBox22
             // 
             this.pictureBox22.BackColor = System.Drawing.Color.Lime;
+            this.pictureBox22.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox22.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox22.Location = new System.Drawing.Point(97, 90);
             this.pictureBox22.Name = "pictureBox22";
@@ -538,6 +582,7 @@ namespace Paint
             // pictureBox23
             // 
             this.pictureBox23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.pictureBox23.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox23.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox23.Location = new System.Drawing.Point(59, 90);
             this.pictureBox23.Name = "pictureBox23";
@@ -548,6 +593,7 @@ namespace Paint
             // pictureBox24
             // 
             this.pictureBox24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.pictureBox24.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox24.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox24.Location = new System.Drawing.Point(21, 90);
             this.pictureBox24.Name = "pictureBox24";
@@ -558,6 +604,7 @@ namespace Paint
             // pictureBox13
             // 
             this.pictureBox13.BackColor = System.Drawing.Color.Red;
+            this.pictureBox13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox13.Location = new System.Drawing.Point(135, 51);
             this.pictureBox13.Name = "pictureBox13";
@@ -568,6 +615,7 @@ namespace Paint
             // pictureBox14
             // 
             this.pictureBox14.BackColor = System.Drawing.Color.Firebrick;
+            this.pictureBox14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox14.Location = new System.Drawing.Point(97, 51);
             this.pictureBox14.Name = "pictureBox14";
@@ -578,6 +626,7 @@ namespace Paint
             // pictureBox15
             // 
             this.pictureBox15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pictureBox15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox15.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox15.Location = new System.Drawing.Point(59, 51);
             this.pictureBox15.Name = "pictureBox15";
@@ -588,6 +637,7 @@ namespace Paint
             // pictureBox16
             // 
             this.pictureBox16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.pictureBox16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox16.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox16.Location = new System.Drawing.Point(21, 51);
             this.pictureBox16.Name = "pictureBox16";
@@ -598,6 +648,7 @@ namespace Paint
             // pictureBox12
             // 
             this.pictureBox12.BackColor = System.Drawing.Color.Black;
+            this.pictureBox12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox12.Location = new System.Drawing.Point(135, 12);
             this.pictureBox12.Name = "pictureBox12";
@@ -608,6 +659,7 @@ namespace Paint
             // pictureBox11
             // 
             this.pictureBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.pictureBox11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox11.Location = new System.Drawing.Point(97, 12);
             this.pictureBox11.Name = "pictureBox11";
@@ -618,6 +670,7 @@ namespace Paint
             // pictureBox10
             // 
             this.pictureBox10.BackColor = System.Drawing.Color.Silver;
+            this.pictureBox10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox10.Location = new System.Drawing.Point(59, 12);
             this.pictureBox10.Name = "pictureBox10";
@@ -628,6 +681,7 @@ namespace Paint
             // pictureBox9
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.White;
+            this.pictureBox9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox9.Location = new System.Drawing.Point(21, 12);
             this.pictureBox9.Name = "pictureBox9";
@@ -638,13 +692,87 @@ namespace Paint
             // pictureBox8
             // 
             this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox8.Image = global::Paint.Properties.Resources._1024px_BYR_color_wheel_svg;
+            this.pictureBox8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox8.Location = new System.Drawing.Point(956, 42);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(188, 180);
+            this.pictureBox8.Size = new System.Drawing.Size(188, 146);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 9;
             this.pictureBox8.TabStop = false;
+            // 
+            // toolStrip1
+            // 
+            this.toolStrip1.BackColor = System.Drawing.Color.Transparent;
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.newToolStripButton,
+            this.openToolStripButton,
+            this.saveToolStripButton,
+            this.printToolStripButton,
+            this.toolStripSeparator,
+            this.toolStripSeparator1});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(1149, 27);
+            this.toolStrip1.TabIndex = 10;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // newToolStripButton
+            // 
+            this.newToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.newToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("newToolStripButton.Image")));
+            this.newToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.newToolStripButton.Name = "newToolStripButton";
+            this.newToolStripButton.Size = new System.Drawing.Size(29, 24);
+            this.newToolStripButton.Text = "&New";
+            // 
+            // openToolStripButton
+            // 
+            this.openToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.openToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("openToolStripButton.Image")));
+            this.openToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.openToolStripButton.Name = "openToolStripButton";
+            this.openToolStripButton.Size = new System.Drawing.Size(29, 24);
+            this.openToolStripButton.Text = "&Open";
+            // 
+            // saveToolStripButton
+            // 
+            this.saveToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.saveToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("saveToolStripButton.Image")));
+            this.saveToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.saveToolStripButton.Name = "saveToolStripButton";
+            this.saveToolStripButton.Size = new System.Drawing.Size(29, 24);
+            this.saveToolStripButton.Text = "&Save";
+            // 
+            // printToolStripButton
+            // 
+            this.printToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.printToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("printToolStripButton.Image")));
+            this.printToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.printToolStripButton.Name = "printToolStripButton";
+            this.printToolStripButton.Size = new System.Drawing.Size(29, 24);
+            this.printToolStripButton.Text = "&Print";
+            // 
+            // toolStripSeparator
+            // 
+            this.toolStripSeparator.Name = "toolStripSeparator";
+            this.toolStripSeparator.Size = new System.Drawing.Size(6, 27);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 27);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Location = new System.Drawing.Point(978, 568);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(146, 29);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Edit Color";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -652,18 +780,21 @@ namespace Paint
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(1149, 608);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.drawPanel);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbPencil)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbPaint)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLine)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEllipse)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbRectangle)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbErase)).EndInit();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel3.ResumeLayout(false);
@@ -704,19 +835,22 @@ namespace Paint
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Panel drawPanel;
+        private System.Windows.Forms.PictureBox pbPencil;
+        private System.Windows.Forms.PictureBox pbPaint;
+        private System.Windows.Forms.PictureBox pbLine;
+        private System.Windows.Forms.PictureBox pbEllipse;
+        private System.Windows.Forms.PictureBox pbRectangle;
+        private System.Windows.Forms.PictureBox pbErase;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Panel panel3;
@@ -757,6 +891,14 @@ namespace Paint
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripButton newToolStripButton;
+        private System.Windows.Forms.ToolStripButton openToolStripButton;
+        private System.Windows.Forms.ToolStripButton saveToolStripButton;
+        private System.Windows.Forms.ToolStripButton printToolStripButton;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.Button button1;
     }
 }
 
