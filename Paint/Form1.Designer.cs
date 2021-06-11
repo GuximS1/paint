@@ -40,42 +40,42 @@ namespace Paint
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox41 = new System.Windows.Forms.PictureBox();
-            this.pictureBox42 = new System.Windows.Forms.PictureBox();
-            this.pictureBox43 = new System.Windows.Forms.PictureBox();
-            this.pictureBox44 = new System.Windows.Forms.PictureBox();
-            this.pictureBox40 = new System.Windows.Forms.PictureBox();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
-            this.pictureBox26 = new System.Windows.Forms.PictureBox();
-            this.pictureBox27 = new System.Windows.Forms.PictureBox();
-            this.pictureBox28 = new System.Windows.Forms.PictureBox();
-            this.pictureBox29 = new System.Windows.Forms.PictureBox();
-            this.pictureBox30 = new System.Windows.Forms.PictureBox();
-            this.pictureBox31 = new System.Windows.Forms.PictureBox();
-            this.pictureBox32 = new System.Windows.Forms.PictureBox();
-            this.pictureBox33 = new System.Windows.Forms.PictureBox();
-            this.pictureBox34 = new System.Windows.Forms.PictureBox();
-            this.pictureBox35 = new System.Windows.Forms.PictureBox();
-            this.pictureBox36 = new System.Windows.Forms.PictureBox();
-            this.pictureBox37 = new System.Windows.Forms.PictureBox();
-            this.pictureBox38 = new System.Windows.Forms.PictureBox();
-            this.pictureBox39 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.clr35 = new System.Windows.Forms.PictureBox();
+            this.clr34 = new System.Windows.Forms.PictureBox();
+            this.clr33 = new System.Windows.Forms.PictureBox();
+            this.clr32 = new System.Windows.Forms.PictureBox();
+            this.clr25 = new System.Windows.Forms.PictureBox();
+            this.clr31 = new System.Windows.Forms.PictureBox();
+            this.clr30 = new System.Windows.Forms.PictureBox();
+            this.clr29 = new System.Windows.Forms.PictureBox();
+            this.clr28 = new System.Windows.Forms.PictureBox();
+            this.clr27 = new System.Windows.Forms.PictureBox();
+            this.clr26 = new System.Windows.Forms.PictureBox();
+            this.clr24 = new System.Windows.Forms.PictureBox();
+            this.clr23 = new System.Windows.Forms.PictureBox();
+            this.clr22 = new System.Windows.Forms.PictureBox();
+            this.clr21 = new System.Windows.Forms.PictureBox();
+            this.clr20 = new System.Windows.Forms.PictureBox();
+            this.clr19 = new System.Windows.Forms.PictureBox();
+            this.clr18 = new System.Windows.Forms.PictureBox();
+            this.clr17 = new System.Windows.Forms.PictureBox();
+            this.clr16 = new System.Windows.Forms.PictureBox();
+            this.clr15 = new System.Windows.Forms.PictureBox();
+            this.clr14 = new System.Windows.Forms.PictureBox();
+            this.clr13 = new System.Windows.Forms.PictureBox();
+            this.clr12 = new System.Windows.Forms.PictureBox();
+            this.clr11 = new System.Windows.Forms.PictureBox();
+            this.clr10 = new System.Windows.Forms.PictureBox();
+            this.clr9 = new System.Windows.Forms.PictureBox();
+            this.clr8 = new System.Windows.Forms.PictureBox();
+            this.clr7 = new System.Windows.Forms.PictureBox();
+            this.clr6 = new System.Windows.Forms.PictureBox();
+            this.clr5 = new System.Windows.Forms.PictureBox();
+            this.clr4 = new System.Windows.Forms.PictureBox();
+            this.clr3 = new System.Windows.Forms.PictureBox();
+            this.clr2 = new System.Windows.Forms.PictureBox();
+            this.clr1 = new System.Windows.Forms.PictureBox();
+            this.clr0 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.newToolStripButton = new System.Windows.Forms.ToolStripButton();
@@ -94,42 +94,42 @@ namespace Paint
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr35)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr34)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr33)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr32)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr31)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr30)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr29)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr28)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr27)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -252,442 +252,442 @@ namespace Paint
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel3.Controls.Add(this.pictureBox41);
-            this.panel3.Controls.Add(this.pictureBox42);
-            this.panel3.Controls.Add(this.pictureBox43);
-            this.panel3.Controls.Add(this.pictureBox44);
-            this.panel3.Controls.Add(this.pictureBox40);
-            this.panel3.Controls.Add(this.pictureBox25);
-            this.panel3.Controls.Add(this.pictureBox26);
-            this.panel3.Controls.Add(this.pictureBox27);
-            this.panel3.Controls.Add(this.pictureBox28);
-            this.panel3.Controls.Add(this.pictureBox29);
-            this.panel3.Controls.Add(this.pictureBox30);
-            this.panel3.Controls.Add(this.pictureBox31);
-            this.panel3.Controls.Add(this.pictureBox32);
-            this.panel3.Controls.Add(this.pictureBox33);
-            this.panel3.Controls.Add(this.pictureBox34);
-            this.panel3.Controls.Add(this.pictureBox35);
-            this.panel3.Controls.Add(this.pictureBox36);
-            this.panel3.Controls.Add(this.pictureBox37);
-            this.panel3.Controls.Add(this.pictureBox38);
-            this.panel3.Controls.Add(this.pictureBox39);
-            this.panel3.Controls.Add(this.pictureBox17);
-            this.panel3.Controls.Add(this.pictureBox18);
-            this.panel3.Controls.Add(this.pictureBox19);
-            this.panel3.Controls.Add(this.pictureBox20);
-            this.panel3.Controls.Add(this.pictureBox21);
-            this.panel3.Controls.Add(this.pictureBox22);
-            this.panel3.Controls.Add(this.pictureBox23);
-            this.panel3.Controls.Add(this.pictureBox24);
-            this.panel3.Controls.Add(this.pictureBox13);
-            this.panel3.Controls.Add(this.pictureBox14);
-            this.panel3.Controls.Add(this.pictureBox15);
-            this.panel3.Controls.Add(this.pictureBox16);
-            this.panel3.Controls.Add(this.pictureBox12);
-            this.panel3.Controls.Add(this.pictureBox11);
-            this.panel3.Controls.Add(this.pictureBox10);
-            this.panel3.Controls.Add(this.pictureBox9);
+            this.panel3.Controls.Add(this.clr35);
+            this.panel3.Controls.Add(this.clr34);
+            this.panel3.Controls.Add(this.clr33);
+            this.panel3.Controls.Add(this.clr32);
+            this.panel3.Controls.Add(this.clr25);
+            this.panel3.Controls.Add(this.clr31);
+            this.panel3.Controls.Add(this.clr30);
+            this.panel3.Controls.Add(this.clr29);
+            this.panel3.Controls.Add(this.clr28);
+            this.panel3.Controls.Add(this.clr27);
+            this.panel3.Controls.Add(this.clr26);
+            this.panel3.Controls.Add(this.clr24);
+            this.panel3.Controls.Add(this.clr23);
+            this.panel3.Controls.Add(this.clr22);
+            this.panel3.Controls.Add(this.clr21);
+            this.panel3.Controls.Add(this.clr20);
+            this.panel3.Controls.Add(this.clr19);
+            this.panel3.Controls.Add(this.clr18);
+            this.panel3.Controls.Add(this.clr17);
+            this.panel3.Controls.Add(this.clr16);
+            this.panel3.Controls.Add(this.clr15);
+            this.panel3.Controls.Add(this.clr14);
+            this.panel3.Controls.Add(this.clr13);
+            this.panel3.Controls.Add(this.clr12);
+            this.panel3.Controls.Add(this.clr11);
+            this.panel3.Controls.Add(this.clr10);
+            this.panel3.Controls.Add(this.clr9);
+            this.panel3.Controls.Add(this.clr8);
+            this.panel3.Controls.Add(this.clr7);
+            this.panel3.Controls.Add(this.clr6);
+            this.panel3.Controls.Add(this.clr5);
+            this.panel3.Controls.Add(this.clr4);
+            this.panel3.Controls.Add(this.clr3);
+            this.panel3.Controls.Add(this.clr2);
+            this.panel3.Controls.Add(this.clr1);
+            this.panel3.Controls.Add(this.clr0);
             this.panel3.Location = new System.Drawing.Point(955, 194);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(188, 367);
             this.panel3.TabIndex = 8;
             // 
-            // pictureBox41
-            // 
-            this.pictureBox41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.pictureBox41.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox41.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox41.Location = new System.Drawing.Point(135, 324);
-            this.pictureBox41.Name = "pictureBox41";
-            this.pictureBox41.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox41.TabIndex = 35;
-            this.pictureBox41.TabStop = false;
-            // 
-            // pictureBox42
-            // 
-            this.pictureBox42.BackColor = System.Drawing.Color.SaddleBrown;
-            this.pictureBox42.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox42.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox42.Location = new System.Drawing.Point(97, 324);
-            this.pictureBox42.Name = "pictureBox42";
-            this.pictureBox42.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox42.TabIndex = 34;
-            this.pictureBox42.TabStop = false;
-            // 
-            // pictureBox43
-            // 
-            this.pictureBox43.BackColor = System.Drawing.Color.Chocolate;
-            this.pictureBox43.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox43.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox43.Location = new System.Drawing.Point(59, 324);
-            this.pictureBox43.Name = "pictureBox43";
-            this.pictureBox43.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox43.TabIndex = 33;
-            this.pictureBox43.TabStop = false;
-            // 
-            // pictureBox44
-            // 
-            this.pictureBox44.BackColor = System.Drawing.Color.BurlyWood;
-            this.pictureBox44.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox44.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox44.Location = new System.Drawing.Point(21, 324);
-            this.pictureBox44.Name = "pictureBox44";
-            this.pictureBox44.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox44.TabIndex = 32;
-            this.pictureBox44.TabStop = false;
-            // 
-            // pictureBox40
-            // 
-            this.pictureBox40.BackColor = System.Drawing.Color.Coral;
-            this.pictureBox40.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox40.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox40.Location = new System.Drawing.Point(59, 246);
-            this.pictureBox40.Name = "pictureBox40";
-            this.pictureBox40.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox40.TabIndex = 31;
-            this.pictureBox40.TabStop = false;
-            // 
-            // pictureBox25
-            // 
-            this.pictureBox25.BackColor = System.Drawing.Color.Indigo;
-            this.pictureBox25.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox25.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox25.Location = new System.Drawing.Point(135, 285);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox25.TabIndex = 30;
-            this.pictureBox25.TabStop = false;
-            // 
-            // pictureBox26
-            // 
-            this.pictureBox26.BackColor = System.Drawing.Color.MidnightBlue;
-            this.pictureBox26.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox26.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox26.Location = new System.Drawing.Point(97, 285);
-            this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox26.TabIndex = 29;
-            this.pictureBox26.TabStop = false;
-            // 
-            // pictureBox27
-            // 
-            this.pictureBox27.BackColor = System.Drawing.Color.RoyalBlue;
-            this.pictureBox27.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox27.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox27.Location = new System.Drawing.Point(59, 285);
-            this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox27.TabIndex = 28;
-            this.pictureBox27.TabStop = false;
-            // 
-            // pictureBox28
-            // 
-            this.pictureBox28.BackColor = System.Drawing.Color.MediumAquamarine;
-            this.pictureBox28.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox28.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox28.Location = new System.Drawing.Point(21, 285);
-            this.pictureBox28.Name = "pictureBox28";
-            this.pictureBox28.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox28.TabIndex = 27;
-            this.pictureBox28.TabStop = false;
-            // 
-            // pictureBox29
-            // 
-            this.pictureBox29.BackColor = System.Drawing.Color.OrangeRed;
-            this.pictureBox29.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox29.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox29.Location = new System.Drawing.Point(135, 246);
-            this.pictureBox29.Name = "pictureBox29";
-            this.pictureBox29.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox29.TabIndex = 26;
-            this.pictureBox29.TabStop = false;
-            // 
-            // pictureBox30
-            // 
-            this.pictureBox30.BackColor = System.Drawing.Color.Tomato;
-            this.pictureBox30.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox30.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox30.Location = new System.Drawing.Point(97, 246);
-            this.pictureBox30.Name = "pictureBox30";
-            this.pictureBox30.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox30.TabIndex = 25;
-            this.pictureBox30.TabStop = false;
-            // 
-            // pictureBox31
-            // 
-            this.pictureBox31.BackColor = System.Drawing.Color.SandyBrown;
-            this.pictureBox31.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox31.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox31.Location = new System.Drawing.Point(21, 246);
-            this.pictureBox31.Name = "pictureBox31";
-            this.pictureBox31.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox31.TabIndex = 24;
-            this.pictureBox31.TabStop = false;
-            // 
-            // pictureBox32
-            // 
-            this.pictureBox32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.pictureBox32.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox32.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox32.Location = new System.Drawing.Point(135, 207);
-            this.pictureBox32.Name = "pictureBox32";
-            this.pictureBox32.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox32.TabIndex = 23;
-            this.pictureBox32.TabStop = false;
-            // 
-            // pictureBox33
-            // 
-            this.pictureBox33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.pictureBox33.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox33.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox33.Location = new System.Drawing.Point(97, 207);
-            this.pictureBox33.Name = "pictureBox33";
-            this.pictureBox33.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox33.TabIndex = 22;
-            this.pictureBox33.TabStop = false;
-            // 
-            // pictureBox34
-            // 
-            this.pictureBox34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.pictureBox34.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox34.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox34.Location = new System.Drawing.Point(59, 207);
-            this.pictureBox34.Name = "pictureBox34";
-            this.pictureBox34.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox34.TabIndex = 21;
-            this.pictureBox34.TabStop = false;
-            // 
-            // pictureBox35
-            // 
-            this.pictureBox35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.pictureBox35.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox35.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox35.Location = new System.Drawing.Point(21, 207);
-            this.pictureBox35.Name = "pictureBox35";
-            this.pictureBox35.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox35.TabIndex = 20;
-            this.pictureBox35.TabStop = false;
-            // 
-            // pictureBox36
-            // 
-            this.pictureBox36.BackColor = System.Drawing.Color.Navy;
-            this.pictureBox36.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox36.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox36.Location = new System.Drawing.Point(135, 168);
-            this.pictureBox36.Name = "pictureBox36";
-            this.pictureBox36.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox36.TabIndex = 19;
-            this.pictureBox36.TabStop = false;
-            // 
-            // pictureBox37
-            // 
-            this.pictureBox37.BackColor = System.Drawing.Color.Blue;
-            this.pictureBox37.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox37.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox37.Location = new System.Drawing.Point(97, 168);
-            this.pictureBox37.Name = "pictureBox37";
-            this.pictureBox37.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox37.TabIndex = 18;
-            this.pictureBox37.TabStop = false;
-            // 
-            // pictureBox38
-            // 
-            this.pictureBox38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.pictureBox38.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox38.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox38.Location = new System.Drawing.Point(59, 168);
-            this.pictureBox38.Name = "pictureBox38";
-            this.pictureBox38.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox38.TabIndex = 17;
-            this.pictureBox38.TabStop = false;
-            // 
-            // pictureBox39
-            // 
-            this.pictureBox39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.pictureBox39.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox39.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox39.Location = new System.Drawing.Point(21, 168);
-            this.pictureBox39.Name = "pictureBox39";
-            this.pictureBox39.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox39.TabIndex = 16;
-            this.pictureBox39.TabStop = false;
-            // 
-            // pictureBox17
-            // 
-            this.pictureBox17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.pictureBox17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox17.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox17.Location = new System.Drawing.Point(135, 129);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox17.TabIndex = 15;
-            this.pictureBox17.TabStop = false;
-            // 
-            // pictureBox18
-            // 
-            this.pictureBox18.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox18.Location = new System.Drawing.Point(97, 129);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox18.TabIndex = 14;
-            this.pictureBox18.TabStop = false;
-            // 
-            // pictureBox19
-            // 
-            this.pictureBox19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.pictureBox19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox19.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox19.Location = new System.Drawing.Point(59, 129);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox19.TabIndex = 13;
-            this.pictureBox19.TabStop = false;
-            // 
-            // pictureBox20
-            // 
-            this.pictureBox20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.pictureBox20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox20.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox20.Location = new System.Drawing.Point(21, 129);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox20.TabIndex = 12;
-            this.pictureBox20.TabStop = false;
-            // 
-            // pictureBox21
-            // 
-            this.pictureBox21.BackColor = System.Drawing.Color.Green;
-            this.pictureBox21.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox21.Location = new System.Drawing.Point(135, 90);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox21.TabIndex = 11;
-            this.pictureBox21.TabStop = false;
-            // 
-            // pictureBox22
-            // 
-            this.pictureBox22.BackColor = System.Drawing.Color.Lime;
-            this.pictureBox22.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox22.Location = new System.Drawing.Point(97, 90);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox22.TabIndex = 10;
-            this.pictureBox22.TabStop = false;
-            // 
-            // pictureBox23
-            // 
-            this.pictureBox23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.pictureBox23.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox23.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox23.Location = new System.Drawing.Point(59, 90);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox23.TabIndex = 9;
-            this.pictureBox23.TabStop = false;
-            // 
-            // pictureBox24
-            // 
-            this.pictureBox24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.pictureBox24.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox24.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox24.Location = new System.Drawing.Point(21, 90);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox24.TabIndex = 8;
-            this.pictureBox24.TabStop = false;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.BackColor = System.Drawing.Color.Red;
-            this.pictureBox13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox13.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox13.Location = new System.Drawing.Point(135, 51);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox13.TabIndex = 7;
-            this.pictureBox13.TabStop = false;
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.BackColor = System.Drawing.Color.Firebrick;
-            this.pictureBox14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox14.Location = new System.Drawing.Point(97, 51);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox14.TabIndex = 6;
-            this.pictureBox14.TabStop = false;
-            // 
-            // pictureBox15
-            // 
-            this.pictureBox15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.pictureBox15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox15.Location = new System.Drawing.Point(59, 51);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox15.TabIndex = 5;
-            this.pictureBox15.TabStop = false;
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.pictureBox16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox16.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox16.Location = new System.Drawing.Point(21, 51);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox16.TabIndex = 4;
-            this.pictureBox16.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.BackColor = System.Drawing.Color.Black;
-            this.pictureBox12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox12.Location = new System.Drawing.Point(135, 12);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox12.TabIndex = 3;
-            this.pictureBox12.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.pictureBox11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox11.Location = new System.Drawing.Point(97, 12);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox11.TabIndex = 2;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox10.Location = new System.Drawing.Point(59, 12);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox10.TabIndex = 1;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackColor = System.Drawing.Color.White;
-            this.pictureBox9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox9.Location = new System.Drawing.Point(21, 12);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(32, 33);
-            this.pictureBox9.TabIndex = 0;
-            this.pictureBox9.TabStop = false;
+            // clr35
+            // 
+            this.clr35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.clr35.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr35.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr35.Location = new System.Drawing.Point(135, 324);
+            this.clr35.Name = "clr35";
+            this.clr35.Size = new System.Drawing.Size(32, 33);
+            this.clr35.TabIndex = 35;
+            this.clr35.TabStop = false;
+            // 
+            // clr34
+            // 
+            this.clr34.BackColor = System.Drawing.Color.SaddleBrown;
+            this.clr34.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr34.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr34.Location = new System.Drawing.Point(97, 324);
+            this.clr34.Name = "clr34";
+            this.clr34.Size = new System.Drawing.Size(32, 33);
+            this.clr34.TabIndex = 34;
+            this.clr34.TabStop = false;
+            // 
+            // clr33
+            // 
+            this.clr33.BackColor = System.Drawing.Color.Chocolate;
+            this.clr33.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr33.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr33.Location = new System.Drawing.Point(59, 324);
+            this.clr33.Name = "clr33";
+            this.clr33.Size = new System.Drawing.Size(32, 33);
+            this.clr33.TabIndex = 33;
+            this.clr33.TabStop = false;
+            // 
+            // clr32
+            // 
+            this.clr32.BackColor = System.Drawing.Color.BurlyWood;
+            this.clr32.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr32.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr32.Location = new System.Drawing.Point(21, 324);
+            this.clr32.Name = "clr32";
+            this.clr32.Size = new System.Drawing.Size(32, 33);
+            this.clr32.TabIndex = 32;
+            this.clr32.TabStop = false;
+            // 
+            // clr25
+            // 
+            this.clr25.BackColor = System.Drawing.Color.Coral;
+            this.clr25.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr25.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr25.Location = new System.Drawing.Point(59, 246);
+            this.clr25.Name = "clr25";
+            this.clr25.Size = new System.Drawing.Size(32, 33);
+            this.clr25.TabIndex = 31;
+            this.clr25.TabStop = false;
+            // 
+            // clr31
+            // 
+            this.clr31.BackColor = System.Drawing.Color.Indigo;
+            this.clr31.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr31.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr31.Location = new System.Drawing.Point(135, 285);
+            this.clr31.Name = "clr31";
+            this.clr31.Size = new System.Drawing.Size(32, 33);
+            this.clr31.TabIndex = 30;
+            this.clr31.TabStop = false;
+            // 
+            // clr30
+            // 
+            this.clr30.BackColor = System.Drawing.Color.MidnightBlue;
+            this.clr30.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr30.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr30.Location = new System.Drawing.Point(97, 285);
+            this.clr30.Name = "clr30";
+            this.clr30.Size = new System.Drawing.Size(32, 33);
+            this.clr30.TabIndex = 29;
+            this.clr30.TabStop = false;
+            // 
+            // clr29
+            // 
+            this.clr29.BackColor = System.Drawing.Color.RoyalBlue;
+            this.clr29.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr29.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr29.Location = new System.Drawing.Point(59, 285);
+            this.clr29.Name = "clr29";
+            this.clr29.Size = new System.Drawing.Size(32, 33);
+            this.clr29.TabIndex = 28;
+            this.clr29.TabStop = false;
+            // 
+            // clr28
+            // 
+            this.clr28.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.clr28.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr28.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr28.Location = new System.Drawing.Point(21, 285);
+            this.clr28.Name = "clr28";
+            this.clr28.Size = new System.Drawing.Size(32, 33);
+            this.clr28.TabIndex = 27;
+            this.clr28.TabStop = false;
+            // 
+            // clr27
+            // 
+            this.clr27.BackColor = System.Drawing.Color.OrangeRed;
+            this.clr27.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr27.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr27.Location = new System.Drawing.Point(135, 246);
+            this.clr27.Name = "clr27";
+            this.clr27.Size = new System.Drawing.Size(32, 33);
+            this.clr27.TabIndex = 26;
+            this.clr27.TabStop = false;
+            // 
+            // clr26
+            // 
+            this.clr26.BackColor = System.Drawing.Color.Tomato;
+            this.clr26.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr26.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr26.Location = new System.Drawing.Point(97, 246);
+            this.clr26.Name = "clr26";
+            this.clr26.Size = new System.Drawing.Size(32, 33);
+            this.clr26.TabIndex = 25;
+            this.clr26.TabStop = false;
+            // 
+            // clr24
+            // 
+            this.clr24.BackColor = System.Drawing.Color.SandyBrown;
+            this.clr24.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr24.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr24.Location = new System.Drawing.Point(21, 246);
+            this.clr24.Name = "clr24";
+            this.clr24.Size = new System.Drawing.Size(32, 33);
+            this.clr24.TabIndex = 24;
+            this.clr24.TabStop = false;
+            // 
+            // clr23
+            // 
+            this.clr23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.clr23.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr23.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr23.Location = new System.Drawing.Point(135, 207);
+            this.clr23.Name = "clr23";
+            this.clr23.Size = new System.Drawing.Size(32, 33);
+            this.clr23.TabIndex = 23;
+            this.clr23.TabStop = false;
+            // 
+            // clr22
+            // 
+            this.clr22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.clr22.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr22.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr22.Location = new System.Drawing.Point(97, 207);
+            this.clr22.Name = "clr22";
+            this.clr22.Size = new System.Drawing.Size(32, 33);
+            this.clr22.TabIndex = 22;
+            this.clr22.TabStop = false;
+            // 
+            // clr21
+            // 
+            this.clr21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.clr21.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr21.Location = new System.Drawing.Point(59, 207);
+            this.clr21.Name = "clr21";
+            this.clr21.Size = new System.Drawing.Size(32, 33);
+            this.clr21.TabIndex = 21;
+            this.clr21.TabStop = false;
+            // 
+            // clr20
+            // 
+            this.clr20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.clr20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr20.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr20.Location = new System.Drawing.Point(21, 207);
+            this.clr20.Name = "clr20";
+            this.clr20.Size = new System.Drawing.Size(32, 33);
+            this.clr20.TabIndex = 20;
+            this.clr20.TabStop = false;
+            // 
+            // clr19
+            // 
+            this.clr19.BackColor = System.Drawing.Color.Navy;
+            this.clr19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr19.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr19.Location = new System.Drawing.Point(135, 168);
+            this.clr19.Name = "clr19";
+            this.clr19.Size = new System.Drawing.Size(32, 33);
+            this.clr19.TabIndex = 19;
+            this.clr19.TabStop = false;
+            // 
+            // clr18
+            // 
+            this.clr18.BackColor = System.Drawing.Color.Blue;
+            this.clr18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr18.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr18.Location = new System.Drawing.Point(97, 168);
+            this.clr18.Name = "clr18";
+            this.clr18.Size = new System.Drawing.Size(32, 33);
+            this.clr18.TabIndex = 18;
+            this.clr18.TabStop = false;
+            // 
+            // clr17
+            // 
+            this.clr17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.clr17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr17.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr17.Location = new System.Drawing.Point(59, 168);
+            this.clr17.Name = "clr17";
+            this.clr17.Size = new System.Drawing.Size(32, 33);
+            this.clr17.TabIndex = 17;
+            this.clr17.TabStop = false;
+            // 
+            // clr16
+            // 
+            this.clr16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.clr16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr16.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr16.Location = new System.Drawing.Point(21, 168);
+            this.clr16.Name = "clr16";
+            this.clr16.Size = new System.Drawing.Size(32, 33);
+            this.clr16.TabIndex = 16;
+            this.clr16.TabStop = false;
+            // 
+            // clr15
+            // 
+            this.clr15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.clr15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr15.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr15.Location = new System.Drawing.Point(135, 129);
+            this.clr15.Name = "clr15";
+            this.clr15.Size = new System.Drawing.Size(32, 33);
+            this.clr15.TabIndex = 15;
+            this.clr15.TabStop = false;
+            // 
+            // clr14
+            // 
+            this.clr14.BackColor = System.Drawing.Color.Yellow;
+            this.clr14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr14.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr14.Location = new System.Drawing.Point(97, 129);
+            this.clr14.Name = "clr14";
+            this.clr14.Size = new System.Drawing.Size(32, 33);
+            this.clr14.TabIndex = 14;
+            this.clr14.TabStop = false;
+            // 
+            // clr13
+            // 
+            this.clr13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.clr13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr13.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr13.Location = new System.Drawing.Point(59, 129);
+            this.clr13.Name = "clr13";
+            this.clr13.Size = new System.Drawing.Size(32, 33);
+            this.clr13.TabIndex = 13;
+            this.clr13.TabStop = false;
+            // 
+            // clr12
+            // 
+            this.clr12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.clr12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr12.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr12.Location = new System.Drawing.Point(21, 129);
+            this.clr12.Name = "clr12";
+            this.clr12.Size = new System.Drawing.Size(32, 33);
+            this.clr12.TabIndex = 12;
+            this.clr12.TabStop = false;
+            // 
+            // clr11
+            // 
+            this.clr11.BackColor = System.Drawing.Color.Green;
+            this.clr11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr11.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr11.Location = new System.Drawing.Point(135, 90);
+            this.clr11.Name = "clr11";
+            this.clr11.Size = new System.Drawing.Size(32, 33);
+            this.clr11.TabIndex = 11;
+            this.clr11.TabStop = false;
+            // 
+            // clr10
+            // 
+            this.clr10.BackColor = System.Drawing.Color.Lime;
+            this.clr10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr10.Location = new System.Drawing.Point(97, 90);
+            this.clr10.Name = "clr10";
+            this.clr10.Size = new System.Drawing.Size(32, 33);
+            this.clr10.TabIndex = 10;
+            this.clr10.TabStop = false;
+            // 
+            // clr9
+            // 
+            this.clr9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.clr9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr9.Location = new System.Drawing.Point(59, 90);
+            this.clr9.Name = "clr9";
+            this.clr9.Size = new System.Drawing.Size(32, 33);
+            this.clr9.TabIndex = 9;
+            this.clr9.TabStop = false;
+            // 
+            // clr8
+            // 
+            this.clr8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.clr8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr8.Location = new System.Drawing.Point(21, 90);
+            this.clr8.Name = "clr8";
+            this.clr8.Size = new System.Drawing.Size(32, 33);
+            this.clr8.TabIndex = 8;
+            this.clr8.TabStop = false;
+            // 
+            // clr7
+            // 
+            this.clr7.BackColor = System.Drawing.Color.Red;
+            this.clr7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr7.Location = new System.Drawing.Point(135, 51);
+            this.clr7.Name = "clr7";
+            this.clr7.Size = new System.Drawing.Size(32, 33);
+            this.clr7.TabIndex = 7;
+            this.clr7.TabStop = false;
+            // 
+            // clr6
+            // 
+            this.clr6.BackColor = System.Drawing.Color.Firebrick;
+            this.clr6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr6.Location = new System.Drawing.Point(97, 51);
+            this.clr6.Name = "clr6";
+            this.clr6.Size = new System.Drawing.Size(32, 33);
+            this.clr6.TabIndex = 6;
+            this.clr6.TabStop = false;
+            // 
+            // clr5
+            // 
+            this.clr5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.clr5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr5.Location = new System.Drawing.Point(59, 51);
+            this.clr5.Name = "clr5";
+            this.clr5.Size = new System.Drawing.Size(32, 33);
+            this.clr5.TabIndex = 5;
+            this.clr5.TabStop = false;
+            // 
+            // clr4
+            // 
+            this.clr4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.clr4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr4.Location = new System.Drawing.Point(21, 51);
+            this.clr4.Name = "clr4";
+            this.clr4.Size = new System.Drawing.Size(32, 33);
+            this.clr4.TabIndex = 4;
+            this.clr4.TabStop = false;
+            // 
+            // clr3
+            // 
+            this.clr3.BackColor = System.Drawing.Color.Black;
+            this.clr3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr3.Location = new System.Drawing.Point(135, 12);
+            this.clr3.Name = "clr3";
+            this.clr3.Size = new System.Drawing.Size(32, 33);
+            this.clr3.TabIndex = 3;
+            this.clr3.TabStop = false;
+            // 
+            // clr2
+            // 
+            this.clr2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.clr2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr2.Location = new System.Drawing.Point(97, 12);
+            this.clr2.Name = "clr2";
+            this.clr2.Size = new System.Drawing.Size(32, 33);
+            this.clr2.TabIndex = 2;
+            this.clr2.TabStop = false;
+            // 
+            // clr1
+            // 
+            this.clr1.BackColor = System.Drawing.Color.Silver;
+            this.clr1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr1.Location = new System.Drawing.Point(59, 12);
+            this.clr1.Name = "clr1";
+            this.clr1.Size = new System.Drawing.Size(32, 33);
+            this.clr1.TabIndex = 1;
+            this.clr1.TabStop = false;
+            // 
+            // clr0
+            // 
+            this.clr0.BackColor = System.Drawing.Color.White;
+            this.clr0.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.clr0.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.clr0.Location = new System.Drawing.Point(21, 12);
+            this.clr0.Name = "clr0";
+            this.clr0.Size = new System.Drawing.Size(32, 33);
+            this.clr0.TabIndex = 0;
+            this.clr0.TabStop = false;
             // 
             // pictureBox8
             // 
@@ -798,42 +798,42 @@ namespace Paint
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox43)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr35)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr34)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr33)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr32)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr31)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr30)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr29)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr28)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr27)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.clr0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
@@ -854,42 +854,42 @@ namespace Paint
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.PictureBox pictureBox41;
-        private System.Windows.Forms.PictureBox pictureBox42;
-        private System.Windows.Forms.PictureBox pictureBox43;
-        private System.Windows.Forms.PictureBox pictureBox44;
-        private System.Windows.Forms.PictureBox pictureBox40;
-        private System.Windows.Forms.PictureBox pictureBox25;
-        private System.Windows.Forms.PictureBox pictureBox26;
-        private System.Windows.Forms.PictureBox pictureBox27;
-        private System.Windows.Forms.PictureBox pictureBox28;
-        private System.Windows.Forms.PictureBox pictureBox29;
-        private System.Windows.Forms.PictureBox pictureBox30;
-        private System.Windows.Forms.PictureBox pictureBox31;
-        private System.Windows.Forms.PictureBox pictureBox32;
-        private System.Windows.Forms.PictureBox pictureBox33;
-        private System.Windows.Forms.PictureBox pictureBox34;
-        private System.Windows.Forms.PictureBox pictureBox35;
-        private System.Windows.Forms.PictureBox pictureBox36;
-        private System.Windows.Forms.PictureBox pictureBox37;
-        private System.Windows.Forms.PictureBox pictureBox38;
-        private System.Windows.Forms.PictureBox pictureBox39;
-        private System.Windows.Forms.PictureBox pictureBox17;
-        private System.Windows.Forms.PictureBox pictureBox18;
-        private System.Windows.Forms.PictureBox pictureBox19;
-        private System.Windows.Forms.PictureBox pictureBox20;
-        private System.Windows.Forms.PictureBox pictureBox21;
-        private System.Windows.Forms.PictureBox pictureBox22;
-        private System.Windows.Forms.PictureBox pictureBox23;
-        private System.Windows.Forms.PictureBox pictureBox24;
-        private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.PictureBox clr35;
+        private System.Windows.Forms.PictureBox clr34;
+        private System.Windows.Forms.PictureBox clr33;
+        private System.Windows.Forms.PictureBox clr32;
+        private System.Windows.Forms.PictureBox clr25;
+        private System.Windows.Forms.PictureBox clr31;
+        private System.Windows.Forms.PictureBox clr30;
+        private System.Windows.Forms.PictureBox clr29;
+        private System.Windows.Forms.PictureBox clr28;
+        private System.Windows.Forms.PictureBox clr27;
+        private System.Windows.Forms.PictureBox clr26;
+        private System.Windows.Forms.PictureBox clr24;
+        private System.Windows.Forms.PictureBox clr23;
+        private System.Windows.Forms.PictureBox clr22;
+        private System.Windows.Forms.PictureBox clr21;
+        private System.Windows.Forms.PictureBox clr20;
+        private System.Windows.Forms.PictureBox clr19;
+        private System.Windows.Forms.PictureBox clr18;
+        private System.Windows.Forms.PictureBox clr17;
+        private System.Windows.Forms.PictureBox clr16;
+        private System.Windows.Forms.PictureBox clr15;
+        private System.Windows.Forms.PictureBox clr14;
+        private System.Windows.Forms.PictureBox clr13;
+        private System.Windows.Forms.PictureBox clr12;
+        private System.Windows.Forms.PictureBox clr11;
+        private System.Windows.Forms.PictureBox clr10;
+        private System.Windows.Forms.PictureBox clr9;
+        private System.Windows.Forms.PictureBox clr8;
+        private System.Windows.Forms.PictureBox clr7;
+        private System.Windows.Forms.PictureBox clr6;
+        private System.Windows.Forms.PictureBox clr5;
+        private System.Windows.Forms.PictureBox clr4;
+        private System.Windows.Forms.PictureBox clr3;
+        private System.Windows.Forms.PictureBox clr2;
+        private System.Windows.Forms.PictureBox clr1;
+        private System.Windows.Forms.PictureBox clr0;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton newToolStripButton;
