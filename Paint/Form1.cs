@@ -53,14 +53,12 @@ namespace Paint
             currItem = ITEM.Paint;
         }
         
-
         private void clr_Click(object sender, EventArgs e)
         {
             PictureBox clr = (PictureBox)sender;
             New_Color = clr.BackColor;
             pbColor.BackColor = New_Color;
         }
-
 
         private void btnEditColor_Click(object sender, EventArgs e)
         {
