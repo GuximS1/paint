@@ -148,6 +148,9 @@ namespace Paint
             this.pbPencil.TabIndex = 1;
             this.pbPencil.TabStop = false;
             this.pbPencil.Click += new System.EventHandler(this.pbPencil_Click);
+            this.pbPencil.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tool_Select);
+            this.pbPencil.MouseEnter += new System.EventHandler(this.tool_MouseHover);
+            this.pbPencil.MouseLeave += new System.EventHandler(this.tool_MouseHoverOut);
             // 
             // pbPaint
             // 
@@ -162,6 +165,9 @@ namespace Paint
             this.pbPaint.TabIndex = 2;
             this.pbPaint.TabStop = false;
             this.pbPaint.Click += new System.EventHandler(this.pbPaint_Click);
+            this.pbPaint.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tool_Select);
+            this.pbPaint.MouseEnter += new System.EventHandler(this.tool_MouseHover);
+            this.pbPaint.MouseLeave += new System.EventHandler(this.tool_MouseHoverOut);
             // 
             // pbLine
             // 
@@ -176,6 +182,9 @@ namespace Paint
             this.pbLine.TabIndex = 3;
             this.pbLine.TabStop = false;
             this.pbLine.Click += new System.EventHandler(this.pbLine_Click);
+            this.pbLine.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tool_Select);
+            this.pbLine.MouseEnter += new System.EventHandler(this.tool_MouseHover);
+            this.pbLine.MouseLeave += new System.EventHandler(this.tool_MouseHoverOut);
             // 
             // pbEllipse
             // 
@@ -190,6 +199,9 @@ namespace Paint
             this.pbEllipse.TabIndex = 4;
             this.pbEllipse.TabStop = false;
             this.pbEllipse.Click += new System.EventHandler(this.pbEllipse_Click);
+            this.pbEllipse.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tool_Select);
+            this.pbEllipse.MouseEnter += new System.EventHandler(this.tool_MouseHover);
+            this.pbEllipse.MouseLeave += new System.EventHandler(this.tool_MouseHoverOut);
             // 
             // pbRectangle
             // 
@@ -204,6 +216,9 @@ namespace Paint
             this.pbRectangle.TabIndex = 5;
             this.pbRectangle.TabStop = false;
             this.pbRectangle.Click += new System.EventHandler(this.pbRectangle_Click);
+            this.pbRectangle.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tool_Select);
+            this.pbRectangle.MouseEnter += new System.EventHandler(this.tool_MouseHover);
+            this.pbRectangle.MouseLeave += new System.EventHandler(this.tool_MouseHoverOut);
             // 
             // pbErase
             // 
@@ -218,6 +233,9 @@ namespace Paint
             this.pbErase.TabIndex = 6;
             this.pbErase.TabStop = false;
             this.pbErase.Click += new System.EventHandler(this.pbErase_Click);
+            this.pbErase.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tool_Select);
+            this.pbErase.MouseEnter += new System.EventHandler(this.tool_MouseHover);
+            this.pbErase.MouseLeave += new System.EventHandler(this.tool_MouseHoverOut);
             // 
             // panel2
             // 
@@ -760,6 +778,7 @@ namespace Paint
             this.newToolStripButton.Name = "newToolStripButton";
             this.newToolStripButton.Size = new System.Drawing.Size(29, 24);
             this.newToolStripButton.Text = "&New";
+            this.newToolStripButton.Click += new System.EventHandler(this.newToolStripButton_Click);
             // 
             // openToolStripButton
             // 
@@ -769,6 +788,7 @@ namespace Paint
             this.openToolStripButton.Name = "openToolStripButton";
             this.openToolStripButton.Size = new System.Drawing.Size(29, 24);
             this.openToolStripButton.Text = "&Open";
+            this.openToolStripButton.Click += new System.EventHandler(this.openToolStripButton_Click);
             // 
             // saveToolStripButton
             // 
@@ -778,6 +798,7 @@ namespace Paint
             this.saveToolStripButton.Name = "saveToolStripButton";
             this.saveToolStripButton.Size = new System.Drawing.Size(29, 24);
             this.saveToolStripButton.Text = "&Save";
+            this.saveToolStripButton.Click += new System.EventHandler(this.saveToolStripButton_Click);
             // 
             // printToolStripButton
             // 
@@ -787,6 +808,7 @@ namespace Paint
             this.printToolStripButton.Name = "printToolStripButton";
             this.printToolStripButton.Size = new System.Drawing.Size(29, 24);
             this.printToolStripButton.Text = "&Print";
+            this.printToolStripButton.Click += new System.EventHandler(this.printToolStripButton_Click);
             // 
             // toolStripSeparator
             // 
@@ -837,9 +859,10 @@ namespace Paint
             this.Controls.Add(this.pbColor);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Paint";
             ((System.ComponentModel.ISupportInitialize)(this.pbPencil)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPaint)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbLine)).EndInit();
