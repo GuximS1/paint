@@ -10,7 +10,6 @@ namespace Paint
     public class Pencil
     {
         public Pen Pen { get; set; }
-
         public Pencil(Pen pen)
         {
             Pen = pen;

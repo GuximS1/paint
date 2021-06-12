@@ -30,7 +30,6 @@ namespace Paint
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.drawPanel = new System.Windows.Forms.Panel();
             this.pbPencil = new System.Windows.Forms.PictureBox();
             this.pbPaint = new System.Windows.Forms.PictureBox();
             this.pbLine = new System.Windows.Forms.PictureBox();
@@ -38,7 +37,7 @@ namespace Paint
             this.pbRectangle = new System.Windows.Forms.PictureBox();
             this.pbErase = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pbClear = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.clr35 = new System.Windows.Forms.PictureBox();
             this.clr34 = new System.Windows.Forms.PictureBox();
@@ -85,6 +84,7 @@ namespace Paint
             this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.btnEditColor = new System.Windows.Forms.Button();
+            this.drawPanel = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbPencil)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPaint)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbLine)).BeginInit();
@@ -92,7 +92,7 @@ namespace Paint
             ((System.ComponentModel.ISupportInitialize)(this.pbRectangle)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbErase)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbClear)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.clr35)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.clr34)).BeginInit();
@@ -132,16 +132,8 @@ namespace Paint
             ((System.ComponentModel.ISupportInitialize)(this.clr0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbColor)).BeginInit();
             this.toolStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.drawPanel)).BeginInit();
             this.SuspendLayout();
-            // 
-            // drawPanel
-            // 
-            this.drawPanel.BackColor = System.Drawing.Color.White;
-            this.drawPanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.drawPanel.Location = new System.Drawing.Point(101, 42);
-            this.drawPanel.Name = "drawPanel";
-            this.drawPanel.Size = new System.Drawing.Size(848, 553);
-            this.drawPanel.TabIndex = 0;
             // 
             // pbPencil
             // 
@@ -231,7 +223,7 @@ namespace Paint
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.pictureBox7);
+            this.panel2.Controls.Add(this.pbClear);
             this.panel2.Controls.Add(this.pbErase);
             this.panel2.Controls.Add(this.pbPencil);
             this.panel2.Controls.Add(this.pbPaint);
@@ -243,17 +235,18 @@ namespace Paint
             this.panel2.Size = new System.Drawing.Size(91, 553);
             this.panel2.TabIndex = 7;
             // 
-            // pictureBox7
+            // pbClear
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.White;
-            this.pictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox7.Location = new System.Drawing.Point(7, 14);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(66, 62);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 7;
-            this.pictureBox7.TabStop = false;
+            this.pbClear.BackColor = System.Drawing.Color.White;
+            this.pbClear.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pbClear.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pbClear.Location = new System.Drawing.Point(7, 14);
+            this.pbClear.Name = "pbClear";
+            this.pbClear.Size = new System.Drawing.Size(66, 62);
+            this.pbClear.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbClear.TabIndex = 7;
+            this.pbClear.TabStop = false;
+            this.pbClear.Click += new System.EventHandler(this.pbClear_Click);
             // 
             // panel3
             // 
@@ -817,18 +810,33 @@ namespace Paint
             this.btnEditColor.UseVisualStyleBackColor = false;
             this.btnEditColor.Click += new System.EventHandler(this.btnEditColor_Click);
             // 
+            // drawPanel
+            // 
+            this.drawPanel.BackColor = System.Drawing.Color.White;
+            this.drawPanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.drawPanel.Location = new System.Drawing.Point(102, 42);
+            this.drawPanel.Name = "drawPanel";
+            this.drawPanel.Size = new System.Drawing.Size(847, 555);
+            this.drawPanel.TabIndex = 12;
+            this.drawPanel.TabStop = false;
+            this.drawPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.drawPanel_Paint);
+            this.drawPanel.MouseClick += new System.Windows.Forms.MouseEventHandler(this.drawPanel_MouseClick);
+            this.drawPanel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.drawPanel_MouseDown);
+            this.drawPanel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.drawPanel_MouseMove);
+            this.drawPanel.MouseUp += new System.Windows.Forms.MouseEventHandler(this.drawPanel_MouseUp);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(1149, 608);
+            this.Controls.Add(this.drawPanel);
             this.Controls.Add(this.btnEditColor);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.pbColor);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.drawPanel);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
@@ -839,7 +847,7 @@ namespace Paint
             ((System.ComponentModel.ISupportInitialize)(this.pbRectangle)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbErase)).EndInit();
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbClear)).EndInit();
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.clr35)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.clr34)).EndInit();
@@ -880,14 +888,13 @@ namespace Paint
             ((System.ComponentModel.ISupportInitialize)(this.pbColor)).EndInit();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.drawPanel)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel drawPanel;
         private System.Windows.Forms.PictureBox pbPencil;
         private System.Windows.Forms.PictureBox pbPaint;
         private System.Windows.Forms.PictureBox pbLine;
@@ -895,7 +902,7 @@ namespace Paint
         private System.Windows.Forms.PictureBox pbRectangle;
         private System.Windows.Forms.PictureBox pbErase;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pbClear;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox clr35;
         private System.Windows.Forms.PictureBox clr34;
@@ -942,6 +949,7 @@ namespace Paint
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.Button btnEditColor;
+        private System.Windows.Forms.PictureBox drawPanel;
     }
 }
 

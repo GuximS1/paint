@@ -13,7 +13,7 @@ namespace Paint
 
         public override void draw(Graphics g, int a, int b, int c, int d)
         {
-            g.DrawRectangle(Pen, a, b, c, d);
+            g.DrawLine(Pen, a, b, c, d);
         }
     }
 }

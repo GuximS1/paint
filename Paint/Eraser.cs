@@ -9,15 +9,14 @@ namespace Paint
 {
     public class Eraser
     {
-        public Pen Pen { get; set; }
-
-        public Eraser(Pen pen)
+        public Pen eraser { get; set; }
+        public Eraser(Pen eraser)
         {
-            Pen = pen;
+            this.eraser = eraser;
         }
         public void draw(Graphics g, Point x, Point y)
         {
-            g.DrawLine(Pen, x, y);
+            g.DrawLine(eraser, x, y);
         }
     }
 }
